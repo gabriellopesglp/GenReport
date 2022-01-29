@@ -13,16 +13,30 @@
     {
       "describe": "build/1",
       "file": "/home/gabera/elixir/3-ignite-template-elixir-gerando-relatorios/test/gen_report_test.exs",
-      "line": 10,
+      "line": 16,
       "module": "Elixir.GenReportTest",
-      "test": "test build/1 When passing file name return a report"
+      "test": "test build/1 When no filename was given, returns an error"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/home/gabera/elixir/3-ignite-template-elixir-gerando-relatorios/test/gen_report_test.exs",
+      "line": 24,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 when a file list is provided, builds the report"
+    },
+    {
+      "describe": "build_from_many/1",
+      "file": "/home/gabera/elixir/3-ignite-template-elixir-gerando-relatorios/test/gen_report_test.exs",
+      "line": 32,
+      "module": "Elixir.GenReportTest",
+      "test": "test build_from_many/1 when a file list is not provided, returns an error"
     },
     {
       "describe": "build/1",
       "file": "/home/gabera/elixir/3-ignite-template-elixir-gerando-relatorios/test/gen_report_test.exs",
-      "line": 16,
+      "line": 10,
       "module": "Elixir.GenReportTest",
-      "test": "test build/1 When no filename was given, returns an error"
+      "test": "test build/1 When passing file name return a report"
     }
   ],
   "skiped": []
